@@ -11,6 +11,8 @@ It’s a simple server that runs locally, listens on port 8080, and sends back a
 ---
 
 ## 📂 Folder Structure
+'''
+
 c-web-server/
 │── src/                     # Source code
 │   ├── main.c               # Entry point
@@ -30,6 +32,8 @@ c-web-server/
 │── Makefile                 # Build/run instructions
 │── README.md                # Project overview
 │── LICENSE                  # Open-source license
+
+'''
 ---
 
 ## ▶️ How to Run
