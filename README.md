@@ -11,9 +11,25 @@ It’s a simple server that runs locally, listens on port 8080, and sends back a
 ---
 
 ## 📂 Folder Structure
-
-c-web-server/ │── src/              # main server source code │   ├── main.c │   ├── server.c │   ├── server.h │   ├── http.c │   ├── http.h │── tests/            # unit tests │   ├── test_http.c │── docs/             # documentation files │   ├── design.md │   ├── usage.md │── .gitignore │── Makefile │── README.md │── LICENSE
-
+c-web-server/
+│── src/                     # Source code
+│   ├── main.c               # Entry point
+│   ├── server.c             # Core server logic
+│   ├── server.h             # Server header
+│   ├── http.c               # HTTP parsing/response
+│   ├── http.h               # HTTP header
+│
+│── tests/                   # Unit tests
+│   ├── test_http.c
+│
+│── docs/                    # Documentation
+│   ├── design.md
+│   ├── usage.md
+│
+│── .gitignore               # Ignore build files
+│── Makefile                 # Build/run instructions
+│── README.md                # Project overview
+│── LICENSE                  # Open-source license
 ---
 
 ## ▶️ How to Run
